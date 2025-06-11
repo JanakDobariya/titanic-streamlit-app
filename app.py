@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load your model
-model = joblib.load('D:/Personal/titanic/Gradient_boosting.pkl')
+model = joblib.load('Gradient_boosting.pkl')
 
 st.title("Titanic Survival Predictor")
 
